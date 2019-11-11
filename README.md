@@ -8,7 +8,7 @@ Useful Resources:
 Don't trust various websites/apps to generate your API key? Do it yourself with curl.
 
 # Generate Access Key
-Update values **-F "email=john@smith.com"** and **-F "password=1234"** with your my.teslamotors.com credentials
+Update values `*-F "email=john@smith.com"` and `-F "password=1234"` with your my.teslamotors.com credentials
 
 ```
 curl -X POST -H "Cache-Control: no-cache" -H "Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW" -F "grant_type=password" -F "client_id=81527cff06843c8634fdc09e8ac0abefb46ac849f38fe1e431c2ef2106796384" -F "client_secret=c7257eb71a564034f9419ee651c7d0e5f7aa6bfbd18bafb5c5c033b093bb2fa3" -F "email=john@smith.com" -F "password=1234" "https://owner-api.teslamotors.com/oauth/token"
