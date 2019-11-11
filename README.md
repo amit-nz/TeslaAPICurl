@@ -15,7 +15,7 @@ curl -X POST -H "Cache-Control: no-cache" -H "Content-Type: multipart/form-data;
 ```
 
 
-This will generate an access token like below. The relevant part is the alphanumeric string after `access_token":`
+This will generate an access token like below. The relevant part is the alphanumeric string after `{"access_token":`
 
 ```
 {"access_token":"1234","token_type":"bearer","expires_in":3888000,"refresh_token":"4568","created_at":1573431375}% 
