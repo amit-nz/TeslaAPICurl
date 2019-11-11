@@ -37,7 +37,9 @@ curl --request GET --header 'Authorization: Bearer 1234' 'https://owner-api.tesl
 ```
 
 # Wake Car
+```
 curl --request POST --header 'Authorization: Bearer 1234' 'https://owner-api.teslamotors.com/api/1/vehicles/NNNNNNNNNNNNNNN/wake_up`
+```
 
 # Honk Horn
 ```
