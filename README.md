@@ -31,7 +31,7 @@ curl --request GET --header 'Authorization: Bearer 1234' 'https://owner-api.tesl
 
 If you don't get a valid response, then it is likely that the car is in a deep sleep state. These commands will not automatically wake the car. To wake the car, see "Wake" below
 
-(replace NNNNNNNN with vehicle ID from prev call) 
+(replace `NNNNNNNN` with vehicle ID from prev call) 
 ```
 curl --request GET --header 'Authorization: Bearer 1234' 'https://owner-api.teslamotors.com/api/1/vehicles/NNNNNNNNNNNNNNN/vehicle_data'
 ```
